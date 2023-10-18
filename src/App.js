@@ -1,6 +1,5 @@
 
-import './App.css';
-import Homepage from "./home";
+
 import WebPage from "./Webpage";
 
 
