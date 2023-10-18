@@ -16,6 +16,14 @@
 .sidebar.active{
   width: 60px;
 }
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #e4e2f5;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
 .sidebar .logo-details{
   height: 80px;
   display: flex;

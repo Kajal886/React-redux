@@ -1,5 +1,4 @@
 import './Webpage.css';
-import Homepage from "./home";
 
 
 const WebPage=()=> {
