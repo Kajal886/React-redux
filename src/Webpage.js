@@ -112,7 +112,7 @@ const WebPage=()=> {
          
             <div style={{display:"flex"}}>
               <div><img src="total_sales.PNG" /></div>
-              <div><p style={{fontSize:"1px", color:"lightgrey", fontWeight:"500"}}>Total Sales</p> <span className='dollar'>$89k</span>
+              <div><p style={{fontSize:"13px", color:"lightgrey", fontWeight:"500"}}>Total Sales</p> <span className='dollar'>$89k</span>
               <p style={{fontSize:"12px"}}><span style={{color:"green"}}>| 11%</span> this week</p></div>
             </div>
           </div>
@@ -128,7 +128,7 @@ const WebPage=()=> {
           <div className="sales-details">
          
           <div style={{textAlign:"center"}}>
-         <img src='circle.PNG'/>
+          <img src='cols.PNG'/>
          </div>
           </div>
           
@@ -142,7 +142,8 @@ const WebPage=()=> {
          </div>
          </ul> */}
          <div style={{textAlign:"center"}}>
-         <img src='cols.PNG'/>
+        
+         <img src='circle.PNG'/>
          </div>
       
         </div>
