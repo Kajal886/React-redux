@@ -10,7 +10,7 @@ const WebPage=()=> {
 <div className='body'>
   <div className="sidebar">
     <div className="logo-details">
-    <i class='bx bxl-c-plus-plus'></i>
+    <i className='bx bxl-c-plus-plus'></i>
     <img  src='Maindashboard.PNG' />
       <span className="logo_name">Dashboard</span>
     </div>
