@@ -7,41 +7,42 @@ const WebPage=()=> {
   
 
 
-<body>
-  <div class="sidebar">
-    <div class="logo-details">
-      <i class='bx bxl-c-plus-plus'></i>
-      <span class="logo_name">Dashboard</span>
+<div className='body'>
+  <div className="sidebar">
+    <div className="logo-details">
+    <i class='bx bxl-c-plus-plus'></i>
+    <img  src='Maindashboard.PNG' />
+      <span className="logo_name">Dashboard</span>
     </div>
-      <ul class="nav-links">
+      <ul className="nav-links">
         <li>
-          <a href="#" class="active">
-            <i class='bx bx-grid-alt' ></i>
-            <span class="links_name">Dashboard</span>
+          <a href="#" className="active">
+          
+            <span className="links_name"><img src='dasboard.PNG' />Dashboard</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class='bx bx-box' ></i>
-            <span class="links_name">Product</span>
+          <img src='product.PNG' />
+            <span className="links_name">Product</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class='bx bx-list-ul' ></i>
-            <span class="links_name">Customers </span>
+          <img src='customer.PNG' />
+            <span className="links_name">Customers </span>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class='bx bx-pie-chart-alt-2' ></i>
-            <span class="links_name">Income</span>
+          <img src='income.PNG' />
+            <span className="links_name">Income</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class='bx bx-coin-stack' ></i>
-            <span class="links_name">Promote</span>
+          <img src='promote.PNG' />
+            <span className="links_name">Promote</span>
           </a>
         </li>
        
@@ -50,80 +51,87 @@ const WebPage=()=> {
        
         <li>
           <a href="#">
-            <i class='bx bx-cog' ></i>
-            <span class="links_name">Help</span>
+          <img src='help.PNG' />
+            <span className="links_name">Help</span>
           </a>
         </li>
-        <li class="log_out">
+        <li className="log_out">
           <a href="#">
-            <i class='bx bx-log-out'></i>
-            <span class="links_name">Log out</span>
+          <img src='user.PNG' />
+            <span className="links_name">Evano <p>Project Manager</p></span>
           </a>
         </li>
       </ul>
   </div>
-  <section class="" style={{paddingLeft:"20px"}}>
+  <section className="" style={{paddingLeft:"20px"}}>
 <div style={{display:"flex", margin:"26px"}}>
-<div class="title">Hello Shahrukh,</div>
-      <div class="search-box" style={{marginLeft:"700px"}}>
+<div className="title">Hello Shahrukh,</div>
+      <div className="search-box" style={{marginLeft:"700px"}}>
         <input type="text" placeholder="Search..."/>
-        <i class='bx bx-search' ></i>
+        <i className='bx bx-search' ></i>
       </div>
       </div>
  
 
-    <div class="home-content">
-      <div class="overview-boxes">
-        <div class="box">
-          <div class="right-side">
+    <div className="home-content">
+      <div className="overview-boxes">
+        <div className="box">
+          <div className="right-side">
             <div style={{display:"flex"}}>
-              <div><img src='dollar.PNG' /></div>
-              <div><p>Earning</p> <p>$198k</p><p>| 37% this month</p></div>
+              <div><img src="\public\dollar.PNG" /></div>
+              <div><p style={{fontSize:"13px", color:"lightgrey", fontWeight:"500"}}>Earning</p> <span className='dollar'>$198k</span>
+              <p style={{fontSize:"12px"}}><span style={{color:"green"}}>| 37%</span> this month</p></div>
             </div>
           </div>
        
         </div>
-        <div class="box">
-          <div class="right-side">
-          <div style={{display:"flex"}}>
-              <div><img src='Orders.PNG' /></div>
-              <div><p>Orders</p> <p>$2.4k</p><p>| 2% this month</p></div>
+        <div className="box">
+          <div className="right-side">
+          
+            <div style={{display:"flex"}}>
+              <div><img src='Orders.PNG'/></div>
+              <div><p style={{fontSize:"13px", color:"lightgrey", fontWeight:"500"}}>Orders</p> <span className='dollar'>$2.4k</span>
+              <p style={{fontSize:"12px"}}><span style={{color:"palevioletred"}}>|2%</span> this month</p></div>
             </div>
           </div>
         </div>
-        <div class="box">
-          <div class="right-side">
-          <div style={{display:"flex"}}>
-              <div><img src='balance.PNG' /></div>
-              <div><p>Balance</p> <p>$2.4k</p><p>| 2% this month</p></div>
+        <div className="box">
+          <div className="right-side">
+         
+            <div style={{display:"flex"}}>
+              <div><img src='Orders.PNG'/></div>
+              <div><p style={{fontSize:"13px", color:"lightgrey", fontWeight:"500"}}>Balance</p> <span className='dollar'>$2.4k</span>
+              <p style={{fontSize:"12px"}}><span style={{color:"palevioletred"}}>|2%</span> this month</p></div>
             </div>
           </div>
         </div>
-        <div class="box">
-          <div class="right-side">
-          <div style={{display:"flex"}}>
-              <div><img src='total_sales.PNG' /></div>
-              <div><p>Total Sales</p> <p>$89k</p><p>| 11% this week</p></div>
+        <div className="box">
+          <div className="right-side">
+         
+            <div style={{display:"flex"}}>
+              <div><img src="total_sales.PNG" /></div>
+              <div><p style={{fontSize:"1px", color:"lightgrey", fontWeight:"500"}}>Total Sales</p> <span className='dollar'>$89k</span>
+              <p style={{fontSize:"12px"}}><span style={{color:"green"}}>| 11%</span> this week</p></div>
             </div>
           </div>
          
         </div>
       </div>
 
-      <div class="sales-boxes">
-        <div class="recent-sales box">
-          <div ><h3 class="title" >Overview</h3>
+      <div className="sales-boxes">
+        <div className="recent-sales box">
+          <div ><h3 className="title" >Overview</h3>
           <select style={{border:"none", float:"right", marginTop:"-30px"}}><option>Quarterly</option></select></div>
           <p>Monthly Earning</p>
-          <div class="sales-details">
+          <div className="sales-details">
          
          
           </div>
           
         </div>
-        <div class="top-sales box">
-          <div class="title">Customers</div>
-          <ul class="top-sales-details">
+        <div className="top-sales box">
+          <div className="title">Customers</div>
+          <ul className="top-sales-details">
             
         
 			
@@ -134,12 +142,12 @@ const WebPage=()=> {
         </div>
       </div>
 
-      <div class="sales-boxes2">
-        <div class="recent-sales2 box">
-        <div style={{display:"flex", marginBottom:"20px"}}><h3 class="title">Product Sell </h3> 
-        <div class="search-box" style={{marginLeft:"505px", border:"none"}}>
+      <div className="sales-boxes2">
+        <div className="recent-sales2 box">
+        <div style={{display:"flex", marginBottom:"20px"}}><h3 className="title">Product Sell </h3> 
+        <div className="search-box" style={{marginLeft:"505px", border:"none"}}>
         <input type="text" placeholder="Search..."/>
-        <i class='bx bx-search' ></i>
+        <i className='bx bx-search' ></i>
       </div>
         <select style={{border:"none", }}><option>Last 30 days</option></select></div>
         {/* <div style={{display:"flex", marginBottom:"20px"}}>
@@ -188,7 +196,7 @@ const WebPage=()=> {
   </section>
 
 
-</body>
+</div>
 
 
 

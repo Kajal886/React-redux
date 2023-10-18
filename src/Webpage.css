@@ -12,11 +12,12 @@
   width: 240px;
   background: #0A2558;
   transition: all 0.5s ease;
+  text-align: center;
 }
 .sidebar.active{
   width: 60px;
 }
-body {
+.body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   background-color: #e4e2f5;
@@ -34,7 +35,7 @@ body {
   font-weight: 500;
   color: #fff;
   min-width: 60px;
-  text-align: center
+  text-align: center;
 }
 .sidebar .logo-details .logo_name{
   color: #fff;
@@ -460,6 +461,11 @@ nav .profile-details i{
     left: 60px;
     width: calc(100% - 60px);
   }
+}
+.dollar{
+  font-size: 20px;
+  color: black;
+  font-weight: 560;
 }
 
 /* //codd */
