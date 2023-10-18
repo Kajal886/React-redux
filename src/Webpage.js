@@ -10,7 +10,7 @@ const WebPage=()=> {
 <div className='body'>
   <div className="sidebar">
     <div className="logo-details">
-    <i className='bx bxl-c-plus-plus'></i>
+    {/* <i className='bx bxl-c-plus-plus'></i> */}
     <img  src='Maindashboard.PNG' />
       <span className="logo_name">Dashboard</span>
     </div>
@@ -18,31 +18,31 @@ const WebPage=()=> {
         <li>
           <a href="#" className="active">
           
-            <span className="links_name"><img src='dasboard.PNG' />Dashboard</span>
+            <span className="links_name"><img src='dasboard.PNG' />Dashboard<span style={{fontSize:"15px", marginLeft:"80px"}}>></span></span>
           </a>
         </li>
         <li>
           <a href="#">
           <img src='product.PNG' />
-            <span className="links_name">Product</span>
+            <span className="links_name">Product <span style={{fontSize:"15px", marginLeft:"100px"}}>></span></span>
           </a>
         </li>
         <li>
           <a href="#">
           <img src='customer.PNG' />
-            <span className="links_name">Customers </span>
+            <span className="links_name">Customers <span style={{fontSize:"15px", marginLeft:"75px"}}>></span> </span>
           </a>
         </li>
         <li>
           <a href="#">
           <img src='income.PNG' />
-            <span className="links_name">Income</span>
+            <span className="links_name">Income <span style={{fontSize:"15px", marginLeft:"100px"}}>></span></span>
           </a>
         </li>
         <li>
           <a href="#">
           <img src='promote.PNG' />
-            <span className="links_name">Promote</span>
+            <span className="links_name">Promote <span style={{fontSize:"15px", marginLeft:"92px"}}>></span></span>
           </a>
         </li>
        
@@ -52,14 +52,16 @@ const WebPage=()=> {
         <li>
           <a href="#">
           <img src='help.PNG' />
-            <span className="links_name">Help</span>
+            <span className="links_name">Help <span style={{fontSize:"15px", marginLeft:"120px"}}>></span></span>
           </a>
         </li>
         <li className="log_out">
           <a href="#">
           <img src='user.PNG' />
-            <span className="links_name">Evano <p>Project Manager</p></span>
+            <span className="links_name">Evano </span><select style={{border:"none", background:"#0A2558", color:'gray'}}></select>
+            <p>Project Manager</p>
           </a>
+          
         </li>
       </ul>
   </div>
@@ -78,7 +80,7 @@ const WebPage=()=> {
         <div className="box">
           <div className="right-side">
             <div style={{display:"flex"}}>
-              <div><img src="\public\dollar.PNG" /></div>
+              <div><img src="dollar.PNG" /></div>
               <div><p style={{fontSize:"13px", color:"lightgrey", fontWeight:"500"}}>Earning</p> <span className='dollar'>$198k</span>
               <p style={{fontSize:"12px"}}><span style={{color:"green"}}>| 37%</span> this month</p></div>
             </div>
@@ -99,7 +101,7 @@ const WebPage=()=> {
           <div className="right-side">
          
             <div style={{display:"flex"}}>
-              <div><img src='Orders.PNG'/></div>
+              <div><img src='balance.PNG'/></div>
               <div><p style={{fontSize:"13px", color:"lightgrey", fontWeight:"500"}}>Balance</p> <span className='dollar'>$2.4k</span>
               <p style={{fontSize:"12px"}}><span style={{color:"palevioletred"}}>|2%</span> this month</p></div>
             </div>
@@ -125,20 +127,24 @@ const WebPage=()=> {
           <p>Monthly Earning</p>
           <div className="sales-details">
          
-         
+          <div style={{textAlign:"center"}}>
+         <img src='circle.PNG'/>
+         </div>
           </div>
           
         </div>
         <div className="top-sales box">
-          <div className="title">Customers</div>
-          <ul className="top-sales-details">
-            
-        
-			
-		
-           
-           
-          </ul>
+          <div className="title">Customers </div>
+          <p style={{fontSize:"13px"}}>Customers that buy products</p>
+          {/* <ul className="top-sales-details">
+          <div style={{textAlign:"center"}}>
+         <span className="dot"></span>
+         </div>
+         </ul> */}
+         <div style={{textAlign:"center"}}>
+         <img src='cols.PNG'/>
+         </div>
+      
         </div>
       </div>
 
