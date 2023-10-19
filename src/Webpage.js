@@ -178,18 +178,18 @@ const WebPage=()=> {
   </tr>
   
   <tr>
-    <td><div style={{display:"flex"}}><div><img src="img1.PNG" /></div><div><h1>Abstract 3D</h1><p>
+    <td><div style={{display:"flex"}}><div><img src="img1.PNG" /></div><div><h3>Abstract 3D</h3><p>
     lorem ipsum dolor sit amet consectetuer adipiscing elit</p></div></div> </td>
     <td>32 in stock</td>
     <td>$45.99</td>
-    <td>20</td>
+    <td className='rate'>20</td>
   </tr>
   <tr>
-    <td><div style={{display:"flex"}}><div><img src="img2.PNG" /></div><div><h1>Surphens illustration</h1><p>
+    <td><div style={{display:"flex"}}><div><img src="img2.PNG" /></div><div><h3>Surphens illustration</h3><p>
     lorem ipsum dolor sit amet consectetuer adipiscing elit</p></div></div> </td>
     <td>32 in stock</td>
     <td>$45.99</td>
-    <td>20</td>
+    <td className='rate'>20</td>
   </tr>
 
    

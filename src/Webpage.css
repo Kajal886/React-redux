@@ -285,7 +285,7 @@ nav .profile-details i{
 
 /* left box */
 .home-content .sales-boxes .recent-sales{
-  width: 100%;
+  width: 75%;
   background: #fff;
   padding: 20px 30px;
   margin: 0 20px;
@@ -873,18 +873,23 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  color: #6c88be;
+  /* color: #6c88be; */
 }
 
 td, th {
   border: 1px solid #dddddd;
+  border: none;
   text-align: left;
   padding: 10px;
 }
+.rate{
+
+  text-align: center;
+}
 
 tr:nth-child(even) {
-     background-color: #5643ff29;
-    color: #6c7293!important;
+     /* background-color: #5643ff29;
+    color: #6c7293!important; */
 }
 .circle-wrap {
   margin: 50px auto;
